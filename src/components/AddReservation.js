@@ -7,7 +7,6 @@ import {
   DialogContent,
   DialogTitle,
   TextField,
-  Box,
 } from '@material-ui/core'
 import moment from 'moment'
 import { CREATE_RESERVATION } from '../gql/mutations'
@@ -52,6 +51,7 @@ const AddReservation = () => {
         graphQLErrors.map(({ message, locations, path }) => {
           setError(message)
           setOpen(true)
+          return message
         })
 
       if (networkError) {

@@ -52,8 +52,6 @@ const Reservations = () => {
     )
   if (error) return <p>Error :(</p>
 
-  const { reservations } = data || []
-  let i = 1
   return (
     <Grid container spacing={5} justify="center" alignItems="center">
       <Grid item xs={12} lg={8}>
