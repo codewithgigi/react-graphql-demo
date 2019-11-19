@@ -1,13 +1,8 @@
 {
-  "name": "hooks-graphql",
+  "name": "react-graphql-demo",
   "version": "0.0.12",
-  "description": "A React hooks into graphql demo ",
-  "keywords": [
-    "hooks",
-    "react",
-    "graphql",
-    "apollo"
-  ],
+  "description": "A React / Graphql demo",
+  "keywords": [],
   "author": "Jiji Gardi",
   "main": "index.js",
   "dependencies": {
