@@ -9,7 +9,7 @@ import { HttpLink } from 'apollo-link-http'
 import { ApolloLink } from 'apollo-client-preset'
 import App from './app/index'
 
-const GRAPHCMS_API = 'https://git.heroku.com/tektuitive-server.git'
+const GRAPHCMS_API = 'https://tektuitive-server.herokuapp.com'
 
 const httpLink = new HttpLink({
   uri: GRAPHCMS_API,
